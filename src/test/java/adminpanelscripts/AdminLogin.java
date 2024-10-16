@@ -17,36 +17,36 @@ public class AdminLogin {
 		driver.get("https://uatmpadmin.anniyam.in/#/admin");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
-//		//valiadating without entering username and password 
-//		WebElement	login =driver.findElement(By.xpath("//button[@id='loginvalue4']"));
-//		Thread.sleep(4000);
-//		login.click();
-//		driver.navigate().refresh();
-//		Thread.sleep(4000);
-//
-//		//validating with valid username and invalid password 
-//		driver.findElement(By.xpath("//input[@id='loginvalue2']")).sendKeys("mahendran@anniyam.com");
-//		Thread.sleep(4000);
-//		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("mahendran");
-//		Thread.sleep(4000);
-//		driver.findElement(By.xpath("//button[@id='loginvalue4']")).click();
-//		driver.navigate().refresh();
-//
-//		//validating with invalid user name and valid password 
-//		driver.findElement(By.xpath("//input[@id='loginvalue2']")).sendKeys("mahen@anniyam.com");
-//		Thread.sleep(4000);
-//		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("Anniyam@123");
-//		Thread.sleep(4000);
-//		driver.findElement(By.xpath("//button[@id='loginvalue4']")).click();
-//		driver.navigate().refresh();
-//
-//		//validating with invalid user and invalid password 
-//		driver.findElement(By.xpath("//input[@id='loginvalue2']")).sendKeys("mahen@anniyam.com");
-//		Thread.sleep(4000);
-//		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("Anniy@123");
-//		Thread.sleep(4000);
-//		driver.findElement(By.xpath("//button[@id='loginvalue4']")).click();
-//		driver.navigate().refresh();
+		//valiadating without entering username and password 
+		WebElement	login =driver.findElement(By.xpath("//button[@id='loginvalue4']"));
+		Thread.sleep(4000);
+		login.click();
+		driver.navigate().refresh();
+		Thread.sleep(4000);
+
+		//validating with valid username and invalid password 
+		driver.findElement(By.xpath("//input[@id='loginvalue2']")).sendKeys("mahendran@anniyam.com");
+		Thread.sleep(4000);
+		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("mahendran");
+		Thread.sleep(4000);
+		driver.findElement(By.xpath("//button[@id='loginvalue4']")).click();
+		driver.navigate().refresh();
+
+		//validating with invalid user name and valid password 
+		driver.findElement(By.xpath("//input[@id='loginvalue2']")).sendKeys("mahen@anniyam.com");
+		Thread.sleep(4000);
+		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("Anniyam@123");
+		Thread.sleep(4000);
+		driver.findElement(By.xpath("//button[@id='loginvalue4']")).click();
+		driver.navigate().refresh();
+
+		//validating with invalid user and invalid password 
+		driver.findElement(By.xpath("//input[@id='loginvalue2']")).sendKeys("mahen@anniyam.com");
+		Thread.sleep(4000);
+		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("Anniy@123");
+		Thread.sleep(4000);
+		driver.findElement(By.xpath("//button[@id='loginvalue4']")).click();
+		driver.navigate().refresh();
 		
 		//validating with valid user and valid password 
 		driver.findElement(By.xpath("//input[@id='loginvalue2']")).sendKeys("mahendran@anniyam.com");
